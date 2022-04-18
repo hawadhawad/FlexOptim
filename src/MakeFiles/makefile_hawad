@@ -20,16 +20,15 @@ CONCERTINCDIR = $(CONCERTDIR)/include/
 CONCERTLIBDIR = $(CONCERTDIR)/lib/$(SYSTEM)/$(LIBFORMAT)
 CONCERTLIBFLAGS = -L$(CONCERTLIBDIR) -lconcert -lm -lpthread -ldl
 
-LEMONINCDIR = /opt/lemon/include/
-LEMONLIBDIR = /opt/lemon/lib/
+LEMONINCDIR = /root/Téléchargements/FlexOptim/Lemon/lemon-1.3.1/include/
+LEMONLIBDIR = /root/Téléchargements/FlexOptim/Lemon/lemon-1.3.1/lib/
 LEMONINCFLAGS = -I$(LEMONINCDIR)
 LEMONLIBFLAGS = -L$(LEMONLIBDIR) -lemon
 
-BOOSTINCDIR = /mnt/c/soft/boost_1_71_0/
+BOOSTINCDIR = /root/Téléchargements/FlexOptim/Boost/boost_1_66_0/
 BOOSTINCFLAGS = -I$(BOOSTINCDIR)
 
-OSIFLAGS = /opt/Cbc-2.9.9/Osi/
-
+OSIFLAGS = /root/Téléchargements/FlexOptim/Cbc-2.9/Osi/
 
 ##########################################################################
 #    You can modify this example makefile to fit for your own program.   #
